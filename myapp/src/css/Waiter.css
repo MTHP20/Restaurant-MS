@@ -1,0 +1,206 @@
+.App {
+    font-family: 'Bayon', serif;
+}
+
+.ordersContainer {
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 5px solid #f8cb2e;
+    width: 62%;
+    height: fit-content;
+}
+
+.orderContainer {
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'Bayon', serif;
+}
+
+.orderDisplay{
+    position: absolute;
+    right: 2%;
+    border: 5px solid black;
+    background-color: #f8cb2e;
+    font-size: 32px;
+    width: 400px;
+    top: 20%;
+}
+.confirm-order{
+    position: absolute;
+    border: 5px solid black;
+    background-color: green;
+    color: black;
+    font-size: 32px;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Bayon";
+    left: 50%;
+    top: 105%;
+}
+.confirm-order:hover{
+    background-color: black;
+    color: #f8cb2e;
+    top: 105%;
+}
+
+.delete-order{
+    position: absolute;
+    border: 5px solid black;
+    background-color: red;
+    color: black;
+    font-size: 32px;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Bayon";
+    top: 105%;
+}
+.delete-order:hover{
+    background-color: black;
+    color: #f8cb2e;
+    top: 105%;
+}
+
+.splash-image{
+    width: 100%;
+}
+.deliver-order{
+    position: absolute;
+    border: 5px solid black;
+    background-color: green;
+    color: black;
+    font-size: 32px;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Bayon";
+    left: 50%;
+    top: 105%;
+}
+.deliver-order:hover{
+    background-color: black;
+    color: #f8cb2e;
+    top: 105%;
+}
+.pay-order{
+    position: absolute;
+    border: 5px solid black;
+    background-color: rgb(7, 144, 243);
+    color: black;
+    font-size: 32px;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Bayon";
+    top: 105%;
+}
+.pay-order:hover{
+    background-color: black;
+    color: #f8cb2e;
+    top: 105%;
+}
+.App-header {
+    background-color: #f8cb2e;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    height: 100px;
+}
+
+.order-left {
+    font-family: 'Bayon', serif;
+    font-size: 24px;
+    text-align: left;
+    width:340px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.order-right {
+    font-family: 'Bayon', serif;
+    font-size: 24px;
+    text-align: right;
+    width:231px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.activeButton {
+    height: 45px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.completedButton {
+    height: 45px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.paidButton {
+    height: 45px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.helpButton {
+    height: 45px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.underline {
+    border: 2px solid black;
+}
+.edit-button{
+    height: 50px;
+    line-height: 40px;
+    width: 150px;
+    background: #f8cb2e;
+    position:absolute;
+    top:30px;
+    right: 30px;
+    border: 0 solid black;
+}
+.edit-button:hover {
+    border: 5px solid black;
+    background:#f8cb2e;
+    color: black;
+}
+
+.notifications-button{
+    height: 50px;
+    line-height: 40px;
+    width: 200px;
+    background: #f8cb2e;
+    position:absolute;
+    top:30px;
+    border: 0 solid black;
+}
+
+.notifications-button:hover {
+    border: 5px solid black;
+    background:#f8cb2e;
+    color: black;
+}
+
+.filterButton {
+    height: 80px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+@font-face{
+    font-family: "Bayon";
+    src: local(Bayon-Regular),
+    url("../fonts/Bayon-Regular.ttf") format("truetype");
+}

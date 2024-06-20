@@ -1,0 +1,38 @@
+.login-form {
+    height: 500px;
+    padding: 100px;
+    background-color: #f8cb2e;
+}
+
+.login-Button {
+    margin-top: 10px;
+    width: 127px;
+    height: 70px;
+}
+
+.register-button {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.waiter-button {
+
+}
+
+.kitchen-button {
+
+}
+
+.splash-image {
+    width: 100%;
+}
+
+.App-header {
+    background-color: #f8cb2e;
+    color: black;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    height: 100px;
+}

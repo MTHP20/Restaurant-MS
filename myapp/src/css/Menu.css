@@ -1,0 +1,350 @@
+.Menu {
+    text-align: center;
+}
+
+.order-items-container{
+    font-family: 'Bayon', serif;
+    color: black;
+}
+.vegan-filter{
+    height: 40px;
+    border: 3px solid black;
+    width: 103px;
+    font-size: 20px;
+}
+.vegetarian-filter{
+    height: 40px;
+    border: 3px solid black;
+    margin-left: 20px;
+    width: fit-content;
+    font-size: 20px;
+}
+.dairy-filter{
+    height: 40px;
+    border: 3px solid black;
+    margin-left: 20px;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.cart-button{
+    height: 50px;
+    line-height: 40px;
+    width: 150px;
+    background: #f8cb2e;
+    position:absolute;
+    top:30px;
+    right: 200px;
+    border: 0 solid black;
+}
+
+.toggle-item-name{
+    font-family: 'Bayon';
+}
+
+.menu-images{
+    margin-top: 1.5%;
+    margin-left: 5%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.menu-items-container{
+    text-align: left;
+    justify-content: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.calories {
+    font-size: 26px;
+    display: inline-block;
+    font-weight: 100;
+    font-family: 'Bayon';
+    margin-top: 0;
+}
+
+button {
+    border: 5px solid black;
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    width: 200px;
+    height: 100px;
+    font-family: "Bayon";
+}
+
+button:hover {
+    background-color: black;
+    color: #F8CB2D;
+}
+.underline{
+    width: 100%;
+}
+
+.splash-image{
+    width: 100%;
+}
+.header-image {
+    height: 64px;
+    left: 30px;
+    position:absolute;
+    top:20px;
+}
+
+.App-header {
+    background-color: #f8cb2e;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    height: 100px;
+}
+
+.menu-categories-container {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-category-container {
+    flex: 1;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.separate{
+    height: 20px;
+}
+
+.description{
+    color: #555555;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: "Bayon";
+    width: 78%;
+    overflow-wrap: break-word;
+}
+
+.menu-items{ /* This is for the menu items shown when a button is clicked */
+    justify-content: left;
+    font-size: 30px;
+    font-family: "Bayon";
+    text-align: left;
+    margin-left: 10px;
+}
+
+.add-button{
+    position: absolute;
+    left: 85%;
+    margin-top: -50px;
+    font-size: 20px;
+    height: fit-content;
+    width: fit-content;
+    border: 4px solid black;
+}
+
+.ordering-container {
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    border: 5px solid black;
+    background-color: #f8cb2e;
+    font-size: 32px;
+    width: 27%;
+    z-index: 1000;
+    margin-right: 5px;
+}
+
+.table{
+    font-family: "Bayon";
+    font-size: 30px;
+    display: inline-block;
+    float: left;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.login-button{
+    height: 50px;
+    line-height: 40px;
+    width: 150px;
+    background: #f8cb2e;
+    position:absolute;
+    top:30px;
+    right: 30px;
+    border: 0 solid black;
+}
+
+.login-button:hover {
+    border: 5px solid black;
+    background:#f8cb2e;
+    color: black;
+}
+
+.cart-button{
+    height: 50px;
+    line-height: 40px;
+    width: 150px;
+    background: #f8cb2e;
+    position:absolute;
+    top:30px;
+    right: 200px;
+    border: 0px solid black;
+}
+.cart-button:hover {
+    border: 5px solid black;
+    background:#f8cb2e;
+    color: black;
+}
+
+.table-number{
+    border: 2px solid black;
+    background-color: white;
+    font-size: 25px;
+    width: 125px;
+    height: 50px;
+    font-family: 'Bayon', serif;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.underline {
+    width: 90%;
+    border-top: 1px solid black;
+}
+
+.simple-text{
+    font-family: "Bayon";
+    font-size: 36px;
+    display: inline-block;
+    float: left;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.GAP {
+    height: 20px;
+}
+
+.item-name {
+    font-family: "Bayon";
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 0;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.order-row {
+    vertical-align: middle;
+    overflow:auto;
+}
+
+.money {
+    font-family: "Bayon";
+    font-size: 28px;
+    display: inline-block;
+    float: right;
+    font-weight: 100;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+.remove {
+    border: transparent;
+    background-color: transparent;
+    color: red;
+    font-size: 28px;
+    float: right;
+    text-align: center;
+    width: 30px;
+    height: 45px;
+    font-family: "Bayon";
+    margin-right: 5px;
+}
+
+.remove:hover{
+    background-color: #ffe277;
+    color:red;
+}
+
+.checkout {
+    float: center;
+    width: 150px;
+    height: 70px;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.show-image {
+    width: 10%;
+    height: 10%;
+}
+
+.expanded-div {
+    justify-content: left;
+    position: absolute;
+    top:440px;
+    height: fit-content;
+    width: 850px;
+    border: 5px solid #f8cb2e;
+    margin-left: 12px;
+}
+.checkout{
+    height: fit-content;
+    width: fit-content;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.help-button{
+    height: fit-content;
+    width: fit-content;
+    margin-right: 3px;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+html{
+    background-color: #ffffff;
+}
+
+.App{
+    background-color: #ffffff;
+}
+
+button.information { 
+    background:none; 
+    width: 75px;
+    height: 1px; 
+    border:none
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+button.invisible-button {
+    background:none; 
+    width: 100px;
+    height: 10px; 
+    border:none
+}
+
+@font-face{
+    font-family: "Bayon";
+    src: local(Bayon-Regular),
+    url("../fonts/Bayon-Regular.ttf") format("truetype");
+}

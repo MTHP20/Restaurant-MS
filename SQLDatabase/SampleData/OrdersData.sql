@@ -1,0 +1,2 @@
+INSERT INTO orders (time_ordered, confirmed, complete, paid)
+VALUES ('10:00:00', TRUE, FALSE, FALSE), ('11:00:00', TRUE, FALSE, FALSE), ('12:00:00', TRUE, FALSE, FALSE), ('13:00:00', TRUE, FALSE, FALSE), ('14:00:00', TRUE, FALSE, FALSE), ('15:00:00', FALSE, FALSE, FALSE)

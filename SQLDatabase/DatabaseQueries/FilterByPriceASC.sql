@@ -1,0 +1,3 @@
+SELECT *
+FROM Menu
+ORDER BY Price ASC;

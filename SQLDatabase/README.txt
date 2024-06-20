@@ -1,0 +1,1 @@
+Due to the nature of the type SERIAL in SQL, in order for this sample data to be used, all tables must be empty before executing any insert commands from /SampleData/.

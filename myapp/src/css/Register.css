@@ -1,0 +1,37 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.label-wrapper {
+}
+
+label{
+    font-weight: bold;
+    font-family: Bayon;
+    font-size: 25px;
+}
+
+input{
+    font-size: 30px;
+    font-family: Bayon;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.submit-button{
+    margin-top: 10px;
+    align-content: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.Register{
+    background-color: #f8cb2e;
+    width: 100%;
+    height: 100vh;
+}

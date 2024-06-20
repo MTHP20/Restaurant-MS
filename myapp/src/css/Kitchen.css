@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.splash-image {
+  width: 1385px;
+}
+
+.header-image {
+  height: 64px;
+  position: absolute;
+  left: 30px;
+}
+
+.Heading {
+    position: absolute;
+  font-size: 50px;
+  font-family: "Bayon";
+  left: 40%;
+  top: -4%;
+}
+
+.App-header {
+  background-color: #f8cb2e;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  height: 100px;
+
+}
+
+.separate{
+  height: 20px;
+}
+
+p {
+  justify-content: left;
+  margin-left: -30%;
+  font-size: 25px;
+  font-family: "Bayon";
+}
+
+.order-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color:#f8cb2e;
+
+}
+
+.expanded-div {
+  justify-content: left;
+  position: absolute;
+  height: fit-content;
+  width: 70%;
+  border: 5px solid #f8cb2e;
+}
+
+.order-box {
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+  padding: 1px;
+  border: 5px solid black;
+  font-family: "Bayon";
+  background-color: #f8cb2e;
+  box-sizing: border-box;
+  color: black;
+}
+
+.order-details{
+  font-family: "Bayon";
+  color: black;
+  font-size: 25px;
+}
+
+.order-items {
+  padding: 20px;
+}
+
+.order-id {
+  padding: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Bayon";
+}
+
+.order-box h3 {
+  font-family: "Bayon";
+  font-size: 35px;
+  color: black;
+}
+
+.time-order {
+  float: left;
+  margin-left: 1%;
+}
+
+.order-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.complete-button {
+  height:40px;
+  width: 120px;
+  font-size: 15px;
+  padding: 5px;
+  font-family: "Bayon";
+  border: 2px solid black;
+}
+
+* {
+  font-family: "Bayon-Regular.tff";
+}
+
+.button-container {
+  padding: 20px;
+}
+
+@font-face {
+  font-family: "Bayon";
+  src: local(Bayon-Regular),
+  url("../fonts/Bayon-Regular.ttf") format("truetype");
+}

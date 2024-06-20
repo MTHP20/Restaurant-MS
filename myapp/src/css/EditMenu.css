@@ -1,0 +1,26 @@
+.menu-container-edit {
+    margin-left: 10px;
+}
+
+.menu-items-edit {
+    float: left;
+}
+
+.menu-name-edit {
+    font-family: Bayon;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.hideButton,
+.showButton {
+    margin-left: 30px;
+    height: 10%;
+}
+
+
+@font-face{
+    font-family: "Bayon";
+    src: local(Bayon-Regular),
+    url("../fonts/Bayon-Regular.ttf") format("truetype");
+}
